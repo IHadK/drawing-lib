@@ -239,7 +239,7 @@ function DrawingLib.new(drawingType)
 		circleFrame.Visible = circleObj.Visible
 		circleFrame.ZIndex = circleObj.ZIndex
 
-		uiCorner.CornerRadius = UDim.new(0, 0)
+		uiCorner.CornerRadius = UDim.new(0, 1)
 		circleFrame.Size = UDim2.fromOffset(circleObj.Radius, circleObj.Radius)
 
 		uiStroke.Thickness = circleObj.Thickness
